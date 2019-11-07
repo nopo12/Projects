@@ -1,0 +1,5 @@
+/get url "http://helpful-helium.glitch.me";
+/get table 0;
+/extract new 0 "testTable.csv";
+/update append 23sec;
+/alert;

@@ -1,0 +1,16 @@
+
+URL: https://helpful-helium.glitch.me/;
+
+
+Steps: 
+/get url "https://helpful-helium.glitch.me/"
+/get table
+/extract new "shevatimTable.csv"
+/get table
+/extract new "shevatimTable.csv"
+End Steps
+
+
+hash: 0
+update: new; 15sec
+alert: true

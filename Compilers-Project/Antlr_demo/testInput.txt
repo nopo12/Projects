@@ -1,0 +1,6 @@
+/get url "https://helpful-helium.glitch.me/";
+/get table 0;
+/extract new 0 "shevatimTable.csv";
+/update new "shevatimTable.csv" 15sec;
+/alert;
+/quit;

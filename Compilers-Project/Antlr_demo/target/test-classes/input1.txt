@@ -1,0 +1,6 @@
+/get url "https://www.w3schools.com/html/html_tables.asp";
+/get table 0;
+/extract new 0 "testTable.csv";
+/update append 23sec;
+/alert;
+
