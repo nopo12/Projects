@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Coding_Exercise">
+    <parameter name="site" value="https://www.weightwatchers.com/us/"/>
+    <parameter name="site2" value="https://www.weightwatchers.com/us/find-a-meeting"/>
+    <parameter name="site3" value="https://www.weightwatchers.com/us/find-a-meeting/search?search=10011"/>
+    <parameter name="site4" value="https://www.weightwatchers.com/us/find-a-meeting/1180510/ww-studio-flatiron-new-york-ny"/>
+    <parameter name="basePageTitle" value="WW (Weight Watchers): Weight Loss &amp; Wellness Help"/>
+    <parameter name="findAStudioPageTitle" value="Find WW Studios &amp; Meetings Near You | WW USA"/>
+    <parameter name="zipPageTitle" value="Weight Loss Meeting Locations; 10011 | WW USA"/>
+    <parameter name="studioPageTitle" value="Meeting Location: 14 W 23RD ST 2ND FL, NEW YORK, NY 10010 | WW USA"/>
+    <parameter name="dayOfTheWeek" value="Mon"/>
+    <test name="WW_Tests">
+        <classes>
+            <class name="BaseWWPageTest"/>
+            <class name="FindAStudioPageTest"/>
+            <class name="SearchZipPageTest"/>
+            <class name="WWStudioPageTest"/>
+        </classes>
+    </test>
+</suite>
